@@ -91,3 +91,48 @@
 
 ### 10. Delete the supplementary group called badgroup.
 ![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab2/q10.png)
+
+### 13.Create a folder called myteam in your home directory and change its permissions to read only for the owner.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab2/q13.png)
+
+### 14.Log out and log in by another user.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab2/q14.png)
+### 15.Try to access (by cd command) the folder (myteam)
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab2/q15.png)
+### 16. Using the command Line
+#### a- Change the permissions of oldpasswd file to give owner read and write permissions and for group write and execute and execute only for the others(using chmod in 2 different ways)
+![FOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab2/q16-a.png)
+
+#### b-Change your default permissions to be as above.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab2/q16-b.png)
+#### c-What is the maximum permission a file can have, by default when it is just created? And what is that for directory.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab2/q16-c.png)
+#### d-Change your default permissions to be no permission to everyone then create a directory and a file to verify.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab2/q16-d.png)
+### 17.What are the minimum permission needed for:
+#### Copy a directory (permission for source directory and permissions for target parent directory)
+##### source directory : r-x
+##### target parent directory: -wx
+#### Copy a file (permission for source file and and permission for target parent directory)
+##### file: r--
+##### source directory : --x
+##### target parent directory : -wx
+#### Delete a file
+##### file: ---
+##### source directory: -wx
+#### Change to a directory
+##### --x
+#### List a directory content (ls command)
+##### r--
+#### View a file content (more/cat command)
+##### r--
+#### Modify a file content
+##### for interactive tool like vi need rw-
+##### for non interative tool vi need -w-
+### 18.Create a file with permission 444. Try to edit in it and to remove it? Note what happened.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab2/q18.png)
+### 19. What is the difference between the “x” permission for a file and for a directory?
+#### file: allow user to run this file.
+#### directory: allow user to make cd to it.
+
+
