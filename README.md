@@ -2,26 +2,24 @@
 ## lab1
 
 ### 2. What is the difference between cat and more command?
-####   cat: 
-#####          
-#####      
-#####       
-####   more:
-#####      
-#####       
+####   Both display rhe content of the file but the difference is that in case of larger files, 'cat' command output will scroll off your screen while 'more' command displays output one screenful at a time (page by page ).
+    
 
 ### 3. What is the difference between rm and rmdir using man?
 #### rm 
-##### 
-##### 
-##### 
-#####     
-#####     
+##### Remove files or directories
+
+
+
+
+##### SYNOPSIS rm [OPTION]... [FILE]...
+#### DESCRIPTION
+#####  This manual page documents the GNU version of rm. rm removes each specified file. By default, it does not remove directories.    
 #### rmdir
-##### 
-#####
-##### 
-#####     
+##### Remove empty directories
+##### SYNOPSIS rmdir [OPTION]... DIRECTORY...
+#### DESCRIPTION    
+##### Remove the DIRECTORY(ies), if they are empty.
 
 ### 4. Create the following hierarchy under your home directory:
 ![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab1/q4.png)
