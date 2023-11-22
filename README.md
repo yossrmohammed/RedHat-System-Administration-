@@ -30,7 +30,7 @@
 ![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab1/q4-a.png)
 
 #### b. Then remove dir12 using rmdir –p command. State what happened to the
-![UNFOUND]()https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab1/q4-b.png
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab1/q4-b.png)
 
 #### c. The output of the command pwd was /home/user. Write the absolute and relative path for the file mycv
 ![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab1/q4-c.png)
@@ -60,3 +60,36 @@
 
 ### 13.Display a list of all the commands that contain the keyword passwd in their man page.
 ![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab1/q13.png)
+
+
+
+## Lab2
+### 1. Create a user account with the following attribute and username: islam and Fullname/comment: Islam Askar and Password: islam
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab2/q1.png)
+
+### 2. Create a user account with the following attribute and Username: baduser and Full name/comment: Bad User and Password: baduser
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab2/q2.png)
+
+### 3. Create a supplementary (Secondary) group called pgroup with group ID of 30000
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab2/q3.png)
+
+### 4. Create a supplementary group called badgroup
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab2/q4.png)
+
+### 5. Add islam user to the pgroup group as a supplementary group
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab2/q5.png)
+
+### 6. Modify the password of islam's account to password
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab2/q6.png)
+
+### 7. Modify islam's account so the password expires after 30 days
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab2/q7.png)
+
+### 8. Lock bad user account so he can't log in
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab2/q8.png)
+
+### 9. Delete bad user account
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab2/q9.png)
+
+### 10. Delete the supplementary group called badgroup.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab2/q10.png)
