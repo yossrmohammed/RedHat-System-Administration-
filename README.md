@@ -135,4 +135,42 @@
 #### file: allow user to run this file.
 #### directory: allow user to make cd to it.
 
+## Lab 3
+### 1. Using vi write your CV in the file mycv. Your CV should include your name, age, school,college, experience,...
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab3/q1.png)
+
+### 2. Open mycv file using vi command then: Without using arrows state how to:
+#### a. using j key
+#### b. using k key
+#### c. using /age
+#### d. :5
+#### e.using D
+#### f.using $
+### 3. List the available shells in your system.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab3/q3.png)
+### 4. List the environment variables in your current shell.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab3/q4.png)
+### 5. List all of the environment variables for the bash shell.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab3/q5.png)
+### 6. What are the commands that list the value of a specific variable?
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab3/q6.png)
+
+### 7. Display your current shell name.
+   ![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab3/q7.png)
+### 8. State the initialization files of: sh, ksh, bash.
+##### The initialization files of sh, ksh, and bash are files that contain commands and settings that are executed when a shell is invoked. They are usually located in the user's home directory or in the system's /etc directory.
+ ##### The initialization file for sh: /etc/profile > $HOME/.profile
+ ##### The initialization file for ksh: /etc/profile > $HOME/.profile > $HOME/.kshrc
+ ##### The initialization files for bash: /etc/profile > $HOME/.bash_profile > $HOME/.bash_login > $HOME/.profile > $HOME/.bashrc
+### 9. Edit in your profile to display date at login and change your prompt permanently.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab3/q9.png)
+### 10.Execute the following command :
+### echo \ then press enter
+### What is the purpose of \ ?
+### Notice the prompt ”>” what is that? and how can you change it from “>” to “:”.
+##### The > prompt is the default prompt for the command line interpreter. It indicates that the interpreter is ready to accept a new command.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab3/q10.png)
+### 11. Create a Bash shell alias named ls for the “ls –l” command
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab3/q11.png)
+
 
