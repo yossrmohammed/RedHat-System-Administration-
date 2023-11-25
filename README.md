@@ -174,3 +174,56 @@
 ![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab3/q11.png)
 
 
+## Lab 4
+
+### 1. List the user commands and redirect the output to /tmp/commands.list
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab4/q1.png)
+
+### 2. Count the number of user commands
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab4/q2.png)     
+
+### 3. Get all the users names whose first character in their login is ‘g’.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab4/q3.png)   
+
+### 4. Get the logins name and full names (comment) of logins starts with “g”.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab4/q4.png)
+
+
+### 5. Save the output of the last command sorted by their full names in a file.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab4/q5.png)
+
+### 6. Write two commands: first: to search for all files on the system that named .bash_profile. Second: sorts the output of ls command on / recursively, Saving their output and error in 2 different files and sending them to the background.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab4/q6.png)
+
+### 7. Display the number of users who is logged now to the system.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab4/q7.png)
+
+### 8.Display lines 7 to line 10 of /etc/passwd file
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab4/q8.png)
+
+### 9. What happens if you execute:
+
+#### a. cat filename1 | cat filename2
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab4/q9-a.png)
+
+#### b. Tcat filename1 | cat filename2
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab4/q9-b.png)
+
+#### c. ls /etc/passwd | wc –l
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab4/q9-c.png)
+
+### 10.Issue the command sleep 100.
+### 11.Stop the last command.
+### 12.Resume the last command in the background
+### 13.Issue the jobs command and see its output.
+### 14.Send the sleep command to the foreground and send it again to the background.
+### 15.Kill the sleep command.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab4/fromq10%20to%2015.png)
+### 16.Display your processes only
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab4/q16.png)
+### 17.Display all processes except yours
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab4/q17.png)
+### 18.Use the pgrep command to list your processes only
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab4/q18.png)
+### 19.Kill your processes only.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab4/q19.png)
