@@ -227,3 +227,46 @@
 ![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab4/q18.png)
 ### 19.Kill your processes only.
 ![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab4/q19.png)
+
+
+## lab5
+#### 1. Compress a file by compress, gzip, zip commands and decompress it again. State the differences between compress and gzip commands.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab5/q1.png)
+
+#### 2. What is the command used to view the content of a compressed file.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab5/q2.png)
+
+#### 3. Backup /etc directory using tar utility.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab5/q3.png)
+
+#### 4. Starting from your home directory, find all files that were modified in the last two day.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab5/q4.png)
+
+#### 5. Starting from /etc, find files owned by root user.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab5/q5.png)
+
+#### 6. Find all directories in your home directory.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab5/q6.png)
+
+#### 7. Write a command to search for all files on the system that, its name is “.profile”.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab5/q7.png)
+
+#### 8. Identify the file types of the following: /etc/passwd, /dev/pts/0, /etc, /dev/sda
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab5/q8.png)
+
+#### 9. List the inode numbers of /, /etc, /etc/hosts.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab5/q9-a.png)
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab5/q9-b.png)
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab5/q9-c.png)
+
+#### 10. Copy /etc/passwd to your home directory, use the commands diff and cmp, and Edit in the
+file you copied, and then use these commands again, and check the output.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab5/q10.png)
+
+#### 11. Create a symbolic link of /etc/passwd in /boot.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab5/q11.png) 
+
+#### 12. Create a hard link of /etc/passwd in /boot. Could you? Why
+##### 
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab5/q12.png)
+###### creating a hard link between files on different file systems is not allowed. Hard links are restricted to the same file system because they share the same inode, and inodes are specific to a file system. 
