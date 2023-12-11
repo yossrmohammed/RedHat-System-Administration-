@@ -270,3 +270,58 @@ file you copied, and then use these commands again, and check the output.
 ##### 
 ![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab5/q12.png)
 ###### creating a hard link between files on different file systems is not allowed. Hard links are restricted to the same file system because they share the same inode, and inodes are specific to a file system. 
+
+## Lab6
+###
+### 1.Use systemctl to view the status of all the system services.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab6/q1.png)
+### 2.Change the default run level back to multi-user.target and reboot.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab6/q2.png)
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab6/q2b.png)
+### 3.Send mail to the root user.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab6/q3b.png)
+### 4.Verify that you have received this mail.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab6/q4.png)
+### 5.Use  systemctl utility to stop postfix service
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab6/q5.png)
+### 6.Send mail again to the root user.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab6/q6.png)
+### 7.Verify that you have received this mail.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab6/q7.png)
+### 8.Use systemctl utility to start postfix service
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab6/q8.png)
+### 9.Verify that you have received this mail.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab6/q9.png)
+### 10.Edit in the GRUB2 configuration file and change the timeout variable equal 20 seconds.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab6/q10.png)
+### 11. Edit in the GRUB2 configuration file and change your default operating system
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab6/q11.png)
+### 12.You want to know some information about the status of the system every ten minutes today between the hours of  8:00 AM and 5:00 PM. to help investigate some performance issues you have been having. You suspect it might be memory related and want to keep an eye on those resources.zVC`~
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab6/q12.png)
+### 13.Use mail as the root user to check for e-mail from the cron jobs you have scheduled.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab6/q13.png)
+### 14.How could you send the output from these cron jobs to another e-mail address (the manager user)?
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab6/q14.png)
+### 15.Use mail as the manager user to check for e-mail from the cron jobs you have scheduled.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab6/q15.png)
+### 
+### 17. Attempt to run the command gnuplot. You should find that it is not installed.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab6/q17.png)
+### 18. Search for the plotting packages.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab6/q18.png)
+### 19. Find out more information about the gunuplot package.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab6/q19.png)
+### 20. Install the gnuplot package.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab6/q20.png)
+### 21. At ttempt to remove the gunplot-common package but say no How many packages would be removed Using rpm
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab6/q21.png)
+### 22. List all installed packages in your system.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab6/q22.png)
+### 23. View the files in the initscripts package
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab6/q23.png)
+### 24. Get general information about bash rpm.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab6/q24.png)
+### 25. Have the files from the pam package changed since it was installed.
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab6/q25.png)
+### 26. Which installed packages have gnome in their names?
+![UNFOUND](https://github.com/yossrmohammed/RedHat-System-Administration-/blob/main/lab6/q26.png)
